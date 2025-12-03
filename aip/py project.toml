@@ -25,3 +25,8 @@ Repository = "https://github.com/3vi3Aetheris/agape-identity-protocol"
 [build-system]
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
+
+dependencies = [
+    # ... existing ...
+    "pynacl>=1.5.0",
+]
