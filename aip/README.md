@@ -83,3 +83,31 @@ MIT © 2025 AgapeIntelligence
 ---
 **v1.0 — December 2025**  
 Open-sourced from first principles. Contributions welcome.
+
+### RIS Applications (v1.0+ Roadmap)
+
+The Resonant Individual State (RIS) is designed as a **high-dimensional, reproducible, biometrically-bindable primitive**. Current and planned application domains:
+
+| Domain                        | Use Case                                                                 | Status          | Implementation Path                                      |
+|-------------------------------|--------------------------------------------------------------------------|-----------------|----------------------------------------------------------|
+| **Cryptographic Identity**    | Seed material for private keys, ZK-friendly proofs, continuous authentication | Planned (v1.1) | RIS vector → BLAKE3 → Ed25519 / Kyber key derivation    |
+| **Biometric Binding**         | Fuse RIS with live EEG, HRV, pupillometry, or gait for non-repudiable templates | Research       | Replace random `flux_vec` with real physiological timeseries |
+| **Decentralized Reputation**  | On-chain immutable RIS checksum as soulbound identity anchor            | Planned (v1.2) | Integrate with ENS, World ID, or custom L2 rollup       |
+| **AI Agent Personhood**       | Permanent, verifiable identifier for autonomous agents (Optimus, drones, etc.) | Conceptual     | RIS + timestamp + hardware attestation                  |
+| **Zero-Knowledge Continuity** | Prove “I am the same entity as yesterday” without revealing raw RIS     | In design      | Sigma protocols / Halo2 circuits over RIS norm & checksum |
+| **Consciousness Research**    | Baseline for testing coherence hypotheses in complex systems and BCIs   | Exploratory    | Correlate RIS entropy/coherence with neural measures    |
+| **Secure Enclave Binding**    | Lock RIS graph to TPM/Secure Enclave for device-bound identity           | Planned        | WebAuthn + passkey extension using RIS checksum         |
+| **Cross-Modal Forensics**     | Detect synthetic media or deepfakes via missing RIS resonance signature | Conceptual     | Train classifier on real vs. AI-generated RIS patterns  |
+
+v1.0 provides the deterministic, auditable core required for all of the above. Future releases will add:
+- Real biometric ingestion pipeline
+- Formal challenge-response protocol
+- Zero-knowledge proof libraries
+- Hardware attestation bindings
+
+The RIS is explicitly designed to be **progressively upgradable** while preserving the original checksum as an eternal anchor.
+
+Contributions targeting any of these applications are welcome starting today.
+
+---
+**Principle**: Identity should be resonant, continuous, and mathematically beautiful — never just a hash of entropy.
