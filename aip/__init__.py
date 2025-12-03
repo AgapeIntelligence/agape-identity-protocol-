@@ -34,3 +34,6 @@ __all__ = [
     "private_key_to_public_hex",
     "derive_crypto_from_ris",
 ]
+
+from .identity import derive_identity_from_ris
+__all__ += ["derive_identity_from_ris"]
